@@ -7,7 +7,7 @@ import java.util.Collection;
 
 @Data
 @Entity
-@Table(name = "user_",uniqueConstraints = @UniqueConstraint(columnNames = "email"))
+@Table(name = "users",uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class User {
 
     @Id
